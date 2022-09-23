@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "drsecurityApi", "drsecurityApi\drsecurityApi.csproj", "{1E2358C0-0F29-414E-875C-B52386CF6091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E2358C0-0F29-414E-875C-B52386CF6091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2358C0-0F29-414E-875C-B52386CF6091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2358C0-0F29-414E-875C-B52386CF6091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2358C0-0F29-414E-875C-B52386CF6091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7F9E8E5-3255-4E5D-A156-D5FDAF9A801E}
+	EndGlobalSection
+EndGlobal
