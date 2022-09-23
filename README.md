@@ -1,8 +1,8 @@
 # DrSecurityApi
 DrSecurity api
 
-##Descripcion Breve
-### la api solo retorna un crud de la tabla de Usuario y tarjeta cumpliendo sus 4 metodos (get,delete,put,post), tiene como base de datos SQL Server usando el orm de entity framework para el mapeo de la base de datos.
+## Descripcion Breve
+### Creacion de una api rest con asp core API, aplicando el orm Entity Framework el cual conlleva las operaciones con la base de datos sql server, se desarrollo una api la cual retorna dos modelos Usuario y Tarjeta con un crud simple (get,post,put,delete).
 
 ## funciones
 ### Eliminar, Editar, Crea y Consulta usuarios desde la siguiente url
