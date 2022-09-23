@@ -15,3 +15,13 @@ DrSecurity api
 >/api/Usuairo/{id} => (Put) actualiza los datos del usuario el id se pasa mediante el url y los datos mediante el body de la peticion http
 
 >/api/Usuario => (Post) crea un nuevo usuario los datos se envian mediante el body en json con la estrctura de la entidad Usuario
+
+### esto tambien aplica para el crud de tarjetas solo cambiando la direccion url
+> /api/Tarjeta
+
+al igual core api tiene su documentacion automatica que se ejecuta de manera automatica al ejecutar la api.
+
+## Como instalarlo
+### primera manera es importandolo directo de git en visual studio, al inicar visual studio, nos otorga la funcion de clonar un repositorio
+
+![alt text](https://i.ytimg.com/vi/c4nuFjV9yms/maxresdefault.jpg)
