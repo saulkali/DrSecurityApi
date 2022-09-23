@@ -31,28 +31,28 @@ primera manera es importandolo directo de git en visual studio, al inicar visual
 en la raiz del proyecto se encuentra un json.
 > appsettings.json
 
-con el siguiente formato
-> {
->   "ConnectionStrings:{
->     "drsecurity": "Server= <nombre servidor> ; Database=DrSecurity; Trusted_Connection=True;"
->   },
->    "Loggin":{
->     .......
->    }
-> }
+Con el siguiente formato
+ {
+   "ConnectionStrings:{
+     "drsecurity": "Server= <nombre servidor> ; Database=DrSecurity; Trusted_Connection=True;"
+   },
+    "Loggin":{
+     .......
+    }
+ }
   
   
 donde debemos poner nuestra conexion a la base de datos.
 
 ### Cargar backup de base de datos
-dentro del proyecto en la raiz se encuentra un archivo llamado DrSecurity.bak, es el backup de la base de datos, el cual se puede cargar en SQL Server Management. para evitar crear toda la base de datos desde 0.
-  
+dentro del proyecto en la raiz se encuentra un archivo llamado DrSecurity.bak, es el backup de la base de datos, el cual se puede cargar en SQL Server Management. para evitar crear toda la base de datos desde 0.  
   
 ![alt text](https://learn.microsoft.com/es-es/sql/relational-databases/backup-restore/media/quickstart-backup-restore-database/backup-db-ssms.png?view=sql-server-ver16)
   
-  
-  
+darle en la carpeta database click derecho y en la opcion task se encuentra el de restore, aqui se puede cargar la copia de seguridad de la base de datos.
  
  
- 
+ ## bugs
+ > en si no le vi un bug pero me gustaria poder ver mejorado el retorno de la respuesta a una mejor estructurada por ejemplo una clase que guarde el status un mensaje de error y los datos en tipo lista con esto podria tener el front end un mensaje de error en la api mas especifico, junto con la respusta y el listado de datos.
+> todos los origenes son aceptados pero solo es por fines practicos.
  
